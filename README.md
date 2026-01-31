@@ -2,16 +2,16 @@
 
 ## App para gerir seu estoque! Ou sua despensa...
 
-1. Install dependencies
+1. Instalar no seu dispositivo
 
    ```bash
-   npm install
+   Na PlayStore ou AppStore
    ```
 
-2. Start the app
+2. Abrir e usar
 
    ```bash
-   npx expo start
+   Galeria de aplicativos em seu sistema operacional mobile!
    ```
 
 In the output, you'll find options to open the app in a

@@ -1,17 +1,9 @@
 import { ThemedView } from '@/components/themed-view';
+import { Product } from '@/types/Product';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { useState } from 'react';
 import { FlatList, Modal, Platform, SafeAreaView, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-
-interface Product {
-  id: string;
-  name: string;
-  expirationDate: Date;
-  expirationDateText: string;
-  code: string;
-  quantity: number;
-}
 
 export default function HomeScreen() {
   const insets = useSafeAreaInsets();
