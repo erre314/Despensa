@@ -171,6 +171,7 @@ export default function HomeScreen() {
                     }}
                     style={{
                       borderWidth: 1,
+                      boxSizing: 'border-box',
                       borderColor: '#ddd',
                       borderRadius: 8,
                       padding: 12,
